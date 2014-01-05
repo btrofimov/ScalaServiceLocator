@@ -63,7 +63,6 @@ class C {
 }
 
 ```
-
  * binding by resource id
 
 ```
@@ -78,7 +77,6 @@ class C {
 
 addBean(classOf[B], 'B)
 ```
-
  * circular referencies support
 
 ```
@@ -93,3 +91,5 @@ class A{
 }
 ```
 
+
+Possible examples, what it might looks like, https://gist.github.com/btrofimov/8260474
