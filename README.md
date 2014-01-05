@@ -51,7 +51,7 @@ object DIApp  extends App{
 
 ```
 
-#Must have features:
+#Lost must have Features:
  * interface bindings
 
 ```
@@ -59,7 +59,7 @@ trait A
 class B extends A
 
 class C {
-  val b = inject(classOf[A])
+  val b = inject(classOf[A]) // in fact injects B instance
 }
 
 ```
@@ -70,7 +70,7 @@ trait A
 class B extends A
 
 class C {
-  val b = inject(classOf[A],'B)
+  val b = inject(classOf[A],'B) // injects B instance
 }
 
 ...
