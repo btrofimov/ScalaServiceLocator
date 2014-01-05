@@ -2,12 +2,6 @@ package org.discala
 
 
 
-//trait IContainer{
-//  def inject[A] () : A
-//  def addBean[A](factory : () => A, scope :DIScope = PROTOTYPE )
-//  def addBean2[A](clazz : Class[A], scope :DIScope = PROTOTYPE )
-//}
-
 object Container{
 
   object DIScope extends Enumeration{
