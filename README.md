@@ -54,6 +54,7 @@ object DIApp  extends App{
 ## Current limitations:
  * no support for curcular referencies
  * no support for binding by interface
+ * supports just two scopes: singleton and prototype
 
 ##Features (TODO):
  * bindings by interface
