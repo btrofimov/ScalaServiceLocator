@@ -1,7 +1,5 @@
 package org.discala
 
-
-
 object Container{
 
   object DIScope extends Enumeration{
