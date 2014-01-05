@@ -1,4 +1,4 @@
-package org.discala.ServiceLocator
+package org.discala
 
 
 
