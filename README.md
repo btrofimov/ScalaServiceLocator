@@ -49,14 +49,11 @@ object DIApp  extends App{
 }
 
 
-
-
 ```
 
 #Must have features:
  * interface bindings
-```
-trait A
+```trait A
 class B extends A
 
 class C {
@@ -65,8 +62,7 @@ class C {
 ```
 
  * binding by resource id
-```
-trait A
+```trait A
 class B extends A
 
 class C {
@@ -76,11 +72,10 @@ class C {
 ...
 
 addBean(classOf[B], 'B)
-
 ```
  * circular referencies support
 
-
+```
 ###Example of interface binding
 class B{
   val a  = inject(classOf[A])
