@@ -10,7 +10,7 @@ In fact, this example implements  rather hidden Service Locator pattern with IoC
 Anyway, this scala approach based on functional decorator is very attracrive and powerful.
 
 
-#Usage example:
+##Usage example:
 ```
 class A {
   println("A created")
@@ -49,10 +49,14 @@ object DIApp  extends App{
 }
 
 
-```
 
-#Lost must have Features:
- * interface bindings
+```
+## Current limitations:
+ * no support for curcular referencies
+ * no support for binding by interface
+
+##Features (TODO):
+ * bindings by interface
 
 ```
 trait A
