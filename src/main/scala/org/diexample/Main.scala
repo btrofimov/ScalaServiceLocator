@@ -1,6 +1,6 @@
 package org.diexample
 
-import org.discala.ServiceLocator.Container.{inject,getBean,addBean2,DIScope}
+import org.discala.Container.{inject,getBean,addBean2,DIScope}
 import DIScope._
 
 
